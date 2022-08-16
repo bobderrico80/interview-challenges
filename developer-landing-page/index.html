@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developer Landing Page</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <h1>Developer Landing Page</h1>
+
+    <h1>My Bookmarks</h1>
+    <ul id="list"></ul>
+
+    <form>
+      <h1>Add New Bookmark</h1>
+
+      <label>Bookmark Name</label>
+      <input type="text" id="bookmark-name">
+
+      <label>Bookmark URL</label>
+      <input type="text" id="bookmark-url">
+
+      <button id="add-bookmark">
+        <img
+          class="add-bookmark-icon"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAQAAABIkb+zAAABoElEQVR42u3Zv0pCYRyH8WdRotUCqaDdagtvos02ryChC3BzCBwFuwaHpi6gK9AxqCsokMAhhAYx+TXYUtk5R9/zxx98n7PKy/nAt84pQSmllFJKJa9Gj2em2EbX/b/n/v5kJpW45XPDWzeMdw6KBJR4CLh5w7iOOD0HQD/w9t/YKRJQCxqPYdxEnp85oBd4+wsOiwU8BQIeY87PHDANBPSLBljgdRl4XuGAc++AY++AXe+AsndAxTvg1DvA/a/RrvcH2dA7YMGRb4DR9g54+fMscAYwWt4BE/Z8A4w774DoGWVaWoA5F74BxkcxBEvxmnPlG7D8ca74BhgTWpGPtq0HGMYr7Zh3pC0HLF/zhnRpcEYVgH1OaHgCZPQHjAACCCCAAAIIIIAAAggggAACCCCAAAIIIEAhgBkD6tQZMPMHGNP5/l8zQJUOYz+AEc0VX1yUaTLadsByNFElH1TugJ+jiSrZoHIFrB5NVPGDygkQP5pNB5UDIPloNhlUxoD1R7PuoDIDhI0m+aAyAaQzmmSDSr10RxM/KKWUUkopFdsXZxz8JTaLm5cAAAAASUVORK5CYII="
+        />
+      </button>
+    </form>
+
+    <h1>Search MDN</h1>
+    <input type="text" id="search-query">
+    <div id="search-button">Search</div>
+    <script src="main.js"></script>
+  </body>
+</html>

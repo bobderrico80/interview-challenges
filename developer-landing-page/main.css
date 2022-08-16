@@ -1,0 +1,9 @@
+body {
+  background-color: lightblue;
+  color: #4b81fe;
+}
+
+.add-bookmark-icon {
+  height: 2rem;
+  width: auto;
+}
